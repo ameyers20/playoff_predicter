@@ -67,3 +67,8 @@ print('Average total margin of error (winning half of remaining games): ', mean_
 print('\nMean difference in error of predictions (model - extrapolated win %): ', np.mean(list))
 print('standard deviation: ', np.std(list))
 print(list)
+
+     # The information used here was obtained free of
+     # charge from and is copyrighted by Retrosheet.  Interested
+     # parties may contact Retrosheet at 20 Sunset Rd.,
+     # Newark, DE 19711.
