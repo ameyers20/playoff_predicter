@@ -1,0 +1,26 @@
+The general theory I wanted to pursue here is that, every season many MLB teams either benefit or struggle
+greatly from the result of pure luck. If this luck could be quantified in the first half of the season, then
+these teams would undoubtedly experience some regression toward the mean in their fortunes for the remainder
+of the season. As a result, a more accurate prediction could be made for how the standings might shake out
+for the playoffs. The model was tested and altered using data from each of the previous ten seasons, although
+I still wanted to make careful reasoning before deciding how to quantify certain aspects of luck in order to
+avoid manufacturing a low p-value, when in truth this model would not be as helpful for future seasons. Even
+so, with 24,300 games being analyzed in this program, I am not particularly worried about that potential issue.
+
+There were 3 aspects of luck I could identify with the data given by retrosheet
+
+1. Win-Loss record in close games, specifically 1 run, 2 run, and extra inning games
+    Since scoring in baseball is essentially independent of the other teams offense (unlike almost all other
+    team sports), teams that are winning most of their close games are getting lucky to some degree.
+
+2. Strength of schedule faced before 7/4 compared to the strength thereafter
+    A team that played a lot of good teams before July fourth and will play worse teams for the remainder of
+    the season will predictably perform better.
+
+3. Runs scored by the team in games as a result of defensive errors
+    Errors are randomly distributed in a game, and I hypothesized that many of them were flukes given the
+    talent in the league. Therefore teams that were getting runs at the hands of fortunate mistakes by the
+    opposition had an inflated record.
+
+Results
+    Overall,
